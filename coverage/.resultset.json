@@ -1,6 +1,23 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/christhomas/Paringprojectsproper/bookmarks/spec/bookmarks_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/christhomas/Paringprojectsproper/bookmarks/spec/features/visit_spec.rb": {
         "lines": [
           1,
@@ -13,11 +30,12 @@
           1,
           1,
           1,
+          1,
           null,
           null
         ]
       }
     },
-    "timestamp": 1638874415
+    "timestamp": 1638879859
   }
 }

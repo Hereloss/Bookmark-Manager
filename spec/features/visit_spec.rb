@@ -6,7 +6,8 @@ feature 'Visit site' do
 
   scenario "I can see my bookmarks upon visiting /bookmarks" do
     visit '/bookmarks'
-    expect(page).to have_content "My Website, www.chris.com"
-    expect(page).to have_content "An awful website, www.thisisterrible.com"
+    expect(page).to have_content "http://www.makersacademy.com"
+    expect(page).to have_content "http://www.destroyallsoftware.com"
+    expect(page).to have_content "http://www.google.com"
   end
 end

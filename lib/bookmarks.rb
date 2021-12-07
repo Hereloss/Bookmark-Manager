@@ -1,9 +1,11 @@
+require 'pg'
+
 class Bookmark_manager
 
-  attr_reader :bookmarks
-
-  def initialize
-    @bookmarks = ["My Website, www.chris.com", "An awful website, www.thisisterrible.com"]
+  def all
+      connection = PG.connect(dbname: 'Bookmark manager')
+      result = connection.exec('SELECT * FROM bookmarks')
+      result.map { |bookmark| bookmark['url'] }
   end
 
 end
